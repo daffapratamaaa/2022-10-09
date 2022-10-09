@@ -14,7 +14,7 @@
 <head>
 <title>Ikan Paus Makan Tahu, Akuuu kangen kamuu</title>
 <link rel="icon" type="image/x-icon" href="https://lh5.googleusercontent.com/p/AF1QipPLTXg_zAogQkFrp0hS1YOMbNle-C-aLYJTDgyZ=w720-h720-p-k-no">
-<meta name="description" content="HTML Replit Coding">
+<meta name="description" content="Script html bucin">
 <!-- 
   Made with love by Daffa!
   
@@ -112,6 +112,29 @@ blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0
 .sembunyi, #pesanditolak > *, #kado2, #kado3{display:none !important}
 </style>
 <body>
+
+<script language='JavaScript1.2'>
+function disableselect(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+</script>
+
+<div class='clear'></div>
+<div class='widget HTML' data-version='1' id='HTML2'>
+<div class='widget-content'>
+<script> var message="Dilarang Copy Paste!";
+///////////////////////////////////
+function clickIE4(){if (event.button==2){alert(message);return false;}} function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){alert(message);return false;}}} if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;} else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;} document.oncontextmenu=new Function("alert(message);return false")</script>
+
+<div class='clear'></div></div></div>
 	
    <!-- Ganti Audio di sini -->
    <audio src="https://feeldreams.github.io/maimuna.mp3" id="linkmp3" class="sembunyi"></audio>
@@ -175,7 +198,7 @@ blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0
    </div>
 
 <!-- Jangan Edit Bagian Ini --><script>
-  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src);audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
 
   document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;kadoIn.style="transition:all .8s ease;transform:scale(10);opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="display:none";setTimeout(initengahan,300);setTimeout(inipesan,500)}}
   
